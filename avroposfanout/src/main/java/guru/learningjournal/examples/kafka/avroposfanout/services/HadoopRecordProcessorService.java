@@ -3,7 +3,6 @@ package guru.learningjournal.examples.kafka.avroposfanout.services;
 import guru.learningjournal.examples.kafka.avroposfanout.bindings.PosListenerBinding;
 import guru.learningjournal.examples.kafka.avroposfanout.model.HadoopRecord;
 import guru.learningjournal.examples.kafka.model.PosInvoice;
-import lombok.extern.log4j.Log4j2;
 import org.apache.kafka.streams.kstream.KStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
